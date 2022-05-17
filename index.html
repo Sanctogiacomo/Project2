@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+         
+         
+         <!-- Bootstrap CSS only -->
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+        <!-- ===== Boxicons CSS ===== -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+         <!--main css-->
+         <link rel="stylesheet" href="css/style.css">
+
+         <!-- title icon -->
+        <link href="./assets/favicon1.ico" rel="icon">
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+        <title>form | Side Hustle Internship</title>
+
+      
+    </head>
+
+    <!-- ******************  NAVIGATION BAR STARTED ******************* -->
+
+   
+     <nav>
+
+        <div class="app__navbar-img">
+         <img src="./assets/logo.png" alt="nav-image"/>  
+        </div>
+
+
+        <div class="nav-menu">
+        <a href="https://lms.terrahq.co/login"  action="_blank" type="submit" class="active" id="btn">Join Internship</a>
+        </div>
+           
+               <div class="hamburger">
+                <i class="fa fa-bars toggle" onclick="changeIcon(this)"></i>
+                </div>
+    </nav>
+    <!-- ******************  NAVIGATION BAR ENDED ******************* -->
+
+
+
+    <body>
+
+        
+<!-- ******************  FORM STARTED ******************* -->
+<form name="Form" method="post" onsubmit="return validateForm()" id="myForm" >
+    <h2>Registration Form</h2>
+    <div class="box">
+        <label>Username</label>
+        <input type="text" name="name" id="name" minlength="4" autofocus>
+        <div class="error" id="nameErr"></div>
+    </div>
+    <div class="box">
+        <label>Email Address</label>
+        <input type="text" name="email" id="email">
+        <div class="error" id="emailErr"></div>
+    </div>
+
+
+    <div class="box">
+        <label>Phone Number</label>
+        <input type="text" name="mobile"  id="mobile" maxlength="11">
+        <div class="error" id="mobileErr"></div>
+    </div>
+
+
+    <div class="box">
+        <label>Password</label>
+       <input type="password" name="password" id="createPw">
+       <div class="error" id="passwordErr"></div>
+          <span class="eye">
+            <i class="fa fa-eye show" id="visible" onclick="myToggle()"></i>
+            <i class="fa fa-eye-slash" id="hide"  ></i>
+       </span>
+     
+    </div>
+
+     <div class="box">
+        <label>Confirm Password</label>
+       <input type="password" name="password2" id="confirmPw">
+       <span class="eye1">
+            <i class="fa fa-eye show" id="visible" onclick="myToggle()"></i>
+            <i class="fa fa-eye-slash" id="hide"></i>
+       </span> 
+       <div class="error" id="confirmPasswordErr"> </div>
+      </div> 
+        
+    <div class="box">
+        <label>Gender</label>
+        <div class="form-inline" id="gender">
+            <label><input type="radio" name="gender" value="male"> Male</label>
+            <label><input type="radio" name="gender" value="female"> Female</label> 
+        </div>
+        <div class="error" id="genderErr"></div>
+    </div>
+          
+    <div class="box">
+        <input type="submit" value="Submit" id="submit" onclick="mySubmit()">
+    </div>
+
+    <h3></h3>
+</form>
+<div class="form-img">
+    <img src="./assets/Bg1.png" alt="img/form" />
+</div>
+<!-- ******************  FORM ENDED ******************* -->
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script> 
+  <script src="js/form.js"></script>
+  <script src="js/sweetAlert.js"></script>
+  
+
+
+  <script type="text/javaScript">
+    const password = document.getElementById("createPw");
+    const password2 = document.getElementById("confirmPw");
+    const toggle = document.getElementById("visible");
+    const hide = document.getElementById("hide");
+    
+    function myToggle(){
+        if(password.type === 'password' || password2.type === 'password'){
+            password2.setAttribute('type', 'text');
+            password.setAttribute('type', 'text');
+            toggle.classList.add('visible');
+            toggle.style.display ="block";
+            hide.style.display = "none";
+        }else{
+            password.setAttribute('type', 'password');
+            password2.setAttribute('type', 'password');
+            toggle.classList.add('visible');
+            toggle.style.display ="none";
+            hide.style.display = "block";
+        }
+    }
+
+    
+    </script>
+
+    </body>
+    </html>
+
+
+
