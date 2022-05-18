@@ -1,8 +1,8 @@
 # Project2
 Second Capstone Project
-# Front-end Challenge 2 - A registration page mimick of Side hustle page
+# Front-end Challenge 2 - A registration page mimicking Side hustle page
 
- Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+ Capstone project challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -62,13 +62,15 @@ The Mobile-design Screenshot:
 
 ```html
 I learnt a lot from from this project. I mean from structuring my project to the commenting of code... 
-
 ```
 ```css
 Using  the media query was bombshell. To make my page responsive it took a great deal.
 I was able to how to use flexbox, grid, and much more. Thanks to resources online!
 ```
 
+```JavaScript(Js)
+The use of Js DOM in this project broaden my horizon of how Js DOM works.
+```  
 
 ### Continued development
 
