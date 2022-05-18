@@ -51,7 +51,7 @@ The Mobile-design Screenshot:
 - CSS Grid
 -SweetAlert
 - Font-awesome
--JavaScript DOM
+- JavaScript DOM
 
 
 ### What I learned
