@@ -26,7 +26,10 @@ Second Capstone Project
 Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
+- Use the Hamburger menu animated by the Js DOM
 - See hover states for all interactive elements on the page
+-  Validate all inputs in the registration form using Js.
+
 
 ### Screenshot
 
