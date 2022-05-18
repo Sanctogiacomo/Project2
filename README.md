@@ -37,7 +37,7 @@ The Website-design Screenshot:
 
 
 The Mobile-design Screenshot:
-
+![](https://github.com/Sanctogiacomo/Project2/blob/master/assets/Screenshot-Phone.jpg)
 
 **Note: The above is the screenshot of the challenge.**
 
