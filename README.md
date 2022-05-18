@@ -76,9 +76,9 @@ Areas that I want to continue focusing on in future projects: I would love to wo
 
 ### Useful resources
 
-- [Resource 1](https://www.w3schools.com/) - This helped me to understand the proper use of z-index and Flexbox. I really liked their examples and would definitely use it in my subsequent project.
+- [Resource 1](https://www.w3schools.com/) - This helped me to understand the proper use of Js DOM. I really liked their examples and would definitely use it in my subsequent project.
 
-- [Resource 2](https://stackoverflow.com/) - Stack Overflow is another place I got a lot of opinion about responsiveness of my webpage and I will definitely recommend it to anyone still learning and get stucked at any point.
+- [Resource 2](https://stackoverflow.com/) - Stack Overflow is another place I got a lot of opinion about responsiveness of my webpage/Use of hamburger icon and I will definitely recommend it to anyone still learning and get stucked at any point.
 
 
 ## Author
