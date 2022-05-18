@@ -74,7 +74,7 @@ The use of Js DOM in this project broaden my horizon of how Js DOM works.
 
 ### Continued development
 
-Areas that I want to continue focusing on in future projects: I would love to work on the input interaction with the users. Example: When the user submits his/her email for subscription the user should get a response that email has been received.
+Areas that I want to continue focusing on in future projects: I would love to work on the input interaction with the users. Example: When the user submits his/her details for registration the user should get a confirmation email.
 
 ### Useful resources
 
